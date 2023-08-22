@@ -3,7 +3,9 @@ header{
     grid-template-columns: 1fr 3fr;
 }
 .fotoPerfil{
-    background-color: #3498DB;}
+    background-color: #3498DB;
+    text-align:center;
+}
 .perfil{
      /* cambia estos dos valores para definir el tamaño de tu círculo */
      height: 100px;
@@ -12,7 +14,17 @@ header{
      background-repeat: no-repeat;
      background-position: 50%;
      border-radius: 50%;
-     background-size: 100% auto;}
+     background-size: 100% auto;
+     margin: 0 auto;
+}
 .acercaDe{
     background-color: #D6DBDF;
+}
+.miNombre{
+    text-align: center;
+    color: whitesmoke;
+}
+.iconSocial{
+    width: 25px;
+    height: 25px;
 }
