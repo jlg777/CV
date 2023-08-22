@@ -8,8 +8,8 @@ header{
 }
 .perfil{
      /* cambia estos dos valores para definir el tamaño de tu círculo */
-     height: 100px;
-     width: 100px;
+     height: 150px;
+     width: 150px;
      /* los siguientes valores son independientes del tamaño del círculo */
      background-repeat: no-repeat;
      background-position: 50%;
@@ -28,3 +28,4 @@ header{
     width: 25px;
     height: 25px;
 }
+a:hover{text-decoration:none;} a{text-decoration:none;} a:visited{color: #D6DBDF;}/* sacar subrayado en los links y color a los links*/
