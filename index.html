@@ -36,17 +36,17 @@
     </header>
     <section>
         <nav>
-            <h2>DATOS PERSONALES</h2>
+            <h2>Datos Personales</h2>
             <ul>
-                <li><img src="./assets/iconosDatosPersonales/grupo-de-edad.png" class="iconDatosPersonales" alt="iconDatosPersonales"> Familia</li>
-                <li><img src="./assets/iconosDatosPersonales/marcador-de-posicion.png" class="iconDatosPersonales" alt="iconDatosPersonales"> Ubicacion.</li>
-                <li><img src="./assets/iconosDatosPersonales/bicicleta.png" class="iconDatosPersonales" alt="iconDatosPersonales"> Movilidad.</li>
-                <li><img src="./assets/iconosDatosPersonales/coche.png" class="iconDatosPersonales" alt="iconDatosPersonales"> Movilidad.</li>
-                <li><img src="./assets/iconosDatosPersonales/ejercicios-de-estiramiento.png" class="iconDatosPersonales" alt="iconDatosPersonales"> Actividades.</li>
+                <li><img id="show-familia" src="./assets/iconosDatosPersonales/grupo-de-edad.png" class="iconDatosPersonales" alt="iconDatosPersonales"> Familia</li>
+                <li><img id="show-ubicacion" src="./assets/iconosDatosPersonales/marcador-de-posicion.png" class="iconDatosPersonales" alt="iconDatosPersonales"> Ubicacion.</li>
+                <li><img id="show-mobilidad1" src="./assets/iconosDatosPersonales/bicicleta.png" class="iconDatosPersonales" alt="iconDatosPersonales"> Movilidad.</li>
+                <li><img id="show-mobilidad2" src="./assets/iconosDatosPersonales/coche.png" class="iconDatosPersonales" alt="iconDatosPersonales"> Movilidad.</li>
+                <li><img id="show-actividades" src="./assets/iconosDatosPersonales/ejercicios-de-estiramiento.png" class="iconDatosPersonales" alt="iconDatosPersonales"> Actividades.</li>
             </ul>
         </nav>
         <aside>
-            <h2>ESTUDIOS</h2>
+            <h2>Estudios</h2>
             <ul class="estudios">
                 <li>UNIVERSIDAD NACIONAL DE CUYO - Facultad de Ciencias Económicas - Licenciatura en Administración - 12 Materias aprobadas - Abandonado.</li>
                 <li>INSTITUTO SUPERIOR DE ESTUDIOS ECONOMICOS DE CUYO - Técnico Superior en administración de empresas - Finalizado.</li>
@@ -55,6 +55,63 @@
                 <li>INSTITUTO SUPERIOR DE ESTUDIOS ECONOMICOS DE CUYO - Técnico Superior en Comercio Internacional -  Abandonado.</li>
             </ul>
         </aside>
-</section>
+    </section>
+    <section>
+        <article>
+
+        </article>
+        <main>
+            <table>
+                <!-- Fila de la cabecera -->
+                <tr>
+                    <td colspan="2">Carrefour Express</td>
+                </tr>
+                <tr>
+                    <td>img</td> <!-- Celda cabecera de la columna 1 -->
+                    <td>
+                            <ul>
+                                <li>Cajero</li>
+                                <li>Atención al cliente </li>
+                                <li>Auditoria de precios</li>
+                                <li>Refuerzo de fiestas periodo de prueba</li>
+                                <li>Dedicación: Part Time ½ día</li>
+                                <li>Duración: Diciembre (2010), enero y febrero (2011) </li>
+                                    
+                            </ul>
+                    </td> <!-- Celda cabecera de la columna 2 -->
+                </tr>
+                
+            </table>
+        </main>
+    </section>
+
+
+    <dialog id="alert-familia">
+        <img class="icon" src="information.png" alt="Information icon">
+        <p>Esto es un ejemplo de mensaje de diálogo - familia.</p>
+        <button onClick="this.parentElement.close()">Aceptar</button>
+      </dialog>
+    <dialog id="alert-ubicacion">
+        <img class="icon" src="information.png" alt="Information icon">
+        <p>Esto es un ejemplo de mensaje de diálogo - ubicacion.</p>
+        <button onClick="this.parentElement.close()">Aceptar</button>
+    </dialog>
+    <dialog id="alert-mobilidad1">
+        <img class="icon" src="information.png" alt="Information icon">
+        <p>Esto es un ejemplo de mensaje de diálogo - mobilidad1.</p>
+        <button onClick="this.parentElement.close()">Aceptar</button>
+    </dialog>
+    <dialog id="alert-mobilidad2">
+        <img class="icon" src="information.png" alt="Information icon">
+        <p>Esto es un ejemplo de mensaje de diálogo - mobilidad2.</p>
+        <button onClick="this.parentElement.close()">Aceptar</button>
+    </dialog>
+    <dialog id="alert-actividades">
+        <img class="icon" src="information.png" alt="Information icon">
+        <p>Esto es un ejemplo de mensaje de diálogo - actividades.</p>
+        <button onClick="this.parentElement.close()">Aceptar</button>
+    </dialog>  
+      
+<script src="./js/index.js"></script>
 </body>
 </html>

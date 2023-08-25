@@ -66,3 +66,12 @@ li::marker{
     width: 20px;
     height: 20px;
 }
+td{
+    border-style: groove;
+}
+article{
+    background-color:#3498DB;
+}
+main{
+    background-color:#D6DBDF;
+}
