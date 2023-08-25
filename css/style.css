@@ -43,3 +43,19 @@ a:hover{text-decoration:none;} a{text-decoration:none;} a:visited{color: #D6DBDF
 .acerca{
     font-size: large;
 }
+section{
+    display: grid;
+    grid-template-columns: 1fr 3fr; /* Divido el header en 2 cuadriculas*/
+}
+nav{
+    background-color: #3498DB;
+}
+aside{
+    background-color: #D6DBDF;
+}
+.estudios{
+    list-style-type: disclosure-closed;
+}
+li::marker{
+    color:#3498DB;
+}
